@@ -11,7 +11,7 @@ namespace Bakery.Tests
     public void BreadConstructor_CreatesInstanceOfBread_Bread()
     {
       Bread newBread = new Bread();
-      Assert.AreEqual(typeof(Bread), newBread);
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
   }
 }
