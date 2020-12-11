@@ -60,5 +60,13 @@ namespace Bakery.Tests
       int result = newBread.Quantity;
       Assert.AreEqual(updatedQuantity, result);
     }
+
+    [TestMethod]
+    public void GetDiscountOfBread_ReturnDiscountOfBread_Int()
+    {
+      Bread newBread = new Bread("Baguette", 15, 3);
+      int result = newBread.GetDiscount(3);
+      Assert.AreEqual( 10 ,result);
+    }
   }
 }

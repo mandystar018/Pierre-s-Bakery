@@ -14,14 +14,14 @@ namespace Bakery.Models
       Price = price;
       Quantity = quantity;
     }
-    public string GetDiscount()
+    public int GetDiscount(int Quantity)
     {
       int discount = 5;
       if (Quantity > 2)
       {
         discount -= Price;
       }
-      return Price.ToString();
+      return Price;
     }
   }
 }
