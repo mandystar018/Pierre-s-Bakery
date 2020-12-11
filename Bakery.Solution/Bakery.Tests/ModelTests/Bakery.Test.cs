@@ -26,7 +26,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetPriceOfBread_ReturnPriceOfBread_Int()
     {
-      int price = 4;
+      int price = 5;
       Bread newBread = new Bread("Baguette", 5);
       int result = newBread.Price;
       Assert.AreEqual(price, result);
