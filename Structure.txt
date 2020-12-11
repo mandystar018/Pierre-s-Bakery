@@ -23,14 +23,14 @@ method for specials pastry
 //maybe dictionary to add different orders
 //maybe with dictionaries can use the key that holds all the breads or pastry 
 info and value will be what the user number hits to select its key
-//another list to see how many orders the user has
 
 * Using dictionaries to save the key and value of classes
 
 
 UI Logic
 
-//list of breads and pastry
+//list that hold the breads and pastry on the MENU
+//GetDiscount when user has more than 2 breads
 
 
 * Welcome message

@@ -12,7 +12,9 @@ namespace Bakery.Models
       Kind = kind;
       Price = price;
     }
-
-    
+    public string GetDiscount()
+    {
+      return 10 = Price;
+    }
   }
 }

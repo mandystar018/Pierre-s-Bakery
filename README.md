@@ -74,26 +74,6 @@ _If you have any questions, ideas or concerns, please, contact us:_
 * _GitHub_
 * _MSTest_
 
-
-## <span style="color:#0ec2b8">Specs</span>
-
-<table>
-  <tr>
-    <th>ID
-    <th>Test</th>
-    <th>Input</th>
-    <th>Output</th>
-    <th>Completed</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Should correctly create instance of Bread</td>
-    <td>"Baguette, $5"</td>
-    <td>Bread newBread = new Bread("Baguette", "$5")</td>
-    <td>False</td>
-  </tr>
-</table>
-
 ### <span style="color:#0ec2b8">License</span> 
 
 *This software is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license*
