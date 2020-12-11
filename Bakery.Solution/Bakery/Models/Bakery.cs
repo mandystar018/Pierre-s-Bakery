@@ -6,15 +6,22 @@ namespace Bakery.Models
   {
     public string Kind { get; }
     public int Price { get; set; }
+    public int Quantity { get; set; }
 
-    public Bread(string kind, int price)
+    public Bread(string kind, int price, int quantity)
     {
       Kind = kind;
       Price = price;
+      Quantity = quantity;
     }
     public string GetDiscount()
     {
-      return 10 = Price;
+      int discount = 5;
+      if (Quantity > 2)
+      {
+        discount -= Price;
+      }
+      return Price.ToString();
     }
   }
 }
