@@ -50,5 +50,15 @@ namespace Bakery.Tests
       int result = newBread.Quantity;
       Assert.AreEqual(quantity, result);
     }
+
+    [TestMethod]
+    public void SetQuantityOfBread_ReturnUpdatedQuantityOfBread_Int()
+    {
+      Bread newBread = new Bread("Baguette", 5, 1);
+      int updatedQuantity = 2;
+      newBread.Quantity = updatedQuantity;
+      int result = newBread.Quantity;
+      Assert.AreEqual(updatedQuantity, result);
+    }
   }
 }
