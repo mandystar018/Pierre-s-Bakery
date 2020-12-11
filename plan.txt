@@ -1,0 +1,8 @@
+* We need two classes one for Bread and one for Pastry
+* We need a posibly contructor for orders
+* Welcome message
+* Shows cost of the Bread and Pastry 
+* Each class has to have formula to prepare cost and make deals
+* Bread class if statement, if user select 2 amount then 1 + free
+* Pastry class if user select 2 pastry 3rd $1 discount
+* Maybe using Dictionary?
