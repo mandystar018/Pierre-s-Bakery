@@ -87,10 +87,10 @@ _If you have any questions, ideas or concerns, please, contact us:_
   </tr>
   <tr>
     <td>1</td>
-    <td>Should correctly create instance of ChangeWord</td>
-    <td>"Hello World, "word" "universe"</td>
-    <td>Change newRequest = new ChangeWord("Hello World", "word", "universe")</td>
-    <td>True</td>
+    <td>Should correctly create instance of Bread</td>
+    <td>"Baguette, $5"</td>
+    <td>Bread newBread = new Bread("Baguette", "$5")</td>
+    <td>False</td>
   </tr>
 </table>
 
