@@ -1,22 +1,21 @@
 # <span style="color:#0ec2b8">_Pierre's Bakery_</span>
 
-#### _ Brief description of application, date_
+#### _ Bakery App, 12/11/2020._
 
 #### By _**Amanda Otero**_
 
 ## <span style="color:#0ec2b8">Description</span>
 
-_This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have._
+_This Bakery app it let's you see and pick diferrent options Pierre's Bakery have in the menu and the specials._
 
 ## <span style="color:#0ec2b8">Setup/Installation Requirements</span>
 ### <span style="color:#c4f4ef">Open Locally</span>
 1. _Navigate to my GitHub mandystar018 to view the project files and commits.
 2. _Click on the green button labeled "Code"_ to copy repository URL.
-3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/mandystar018/Template".
+3. _Clone the repository to your local machine_ by opening your machine terminal and using the command "git clone https://github.com/mandystar018/Bakery".
 4. _To use this application you will need to install .NET. Please, see instructions below._
 
 ## <span style="color:#0ec2b8">.NET Installation</span> 
-
 
 ### <span style="color:#c4f4ef">Mac</span> 
 <p>C# and .NET programming are fully supported on Mac operating systems. We can install .NET and C# on a Mac in a few steps:</p>
@@ -28,10 +27,8 @@ _This is a detailed description of your application. Its purpose and usage.  Giv
 3. _Confirm the installation is successful by opening your terminal and running the command $ dotnet --version. You should see something like this in response: 2.2.105. This means both .NET and C# are successfully installed._
 
 ### <span style="color:#c4f4ef">Windows</span> 
-Note on Windows Versions
-These Windows instructions assume you're using Windows 10. If you currently run Windows 7 or Windows 8, you may have a free upgrade available.
-
-If you are not running Windows 10 (and cannot or do not plan to upgrade), specific installation steps may differ. However, your instructor will be available to assist with personal laptop configurations during the first week of the course.
+_Note on Windows Versions_
+_These Windows instructions assume you're using Windows 10. If you currently run Windows 7 or Windows 8, you may have a free upgrade available._
 
 ### Installation Steps
 1. _Download either the the 64-bit .NET Core SDK (Software Development Kit). Clicking these links will prompt a .exe file download from Microsoft._
@@ -45,7 +42,7 @@ _This means .NET and C# are installed and our computer recognizes the dotnet com
 ### <span style="color:#c4f4ef">Run Application</span>
 <p>You can launch our program with the following steps:</p>
 
-1. _Navigate to the "/Template/" folder in the command line._
+1. _Navigate to the "/Bakery/" folder in the command line._
 
 2. _Run the following command: $ dotnet build_
 
@@ -54,7 +51,7 @@ _This means .NET and C# are installed and our computer recognizes the dotnet com
 
 ### <span style="color:#c4f4ef">Run Tests</span> 
 
- 1. _Open Terminal, navigate into the "/FindAndReplace.Tests/" folder in the command line_ 
+ 1. _Open Terminal, navigate into the "/Bakery.Tests/" folder in the command line_ 
  2. _Run the following command $"dotnet restore" to retrieve and install the packages we listed in .csproj in our application._
  3. _Then run the following command: $ dotnet test
 
