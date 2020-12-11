@@ -5,4 +5,12 @@
 * Each class has to have formula to prepare cost and make deals
 * Bread class if statement, if user select 2 amount then 1 + free
 * Pastry class if user select 2 pastry 3rd $1 discount
-* Maybe using Dictionary?
+* Using list or dictionary?
+
+//maybe a list to add all the items in the order 
+//another list to see how many orders the user has
+
+* Using dictionaries to save the key and value of classes
+
+//if user said yes to buy more .add to the order
+
