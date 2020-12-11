@@ -17,7 +17,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetKindOfBread_ReturnKindOfBread_String()
     {
-      string bread = "Baguett";
+      string bread = "Baguette";
       Bread newBread = new Bread("Baguette", 5);
       string result = newBread.Kind;
       Assert.AreEqual(bread, result);
