@@ -45,7 +45,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetQuantityOfBread_ReturnQuantityOfBread_Int()
     {
-      int quantity = 2;
+      int quantity = 1;
       Bread newBread = new Bread("Baguette", 5, 1);
       int result = newBread.Quantity;
       Assert.AreEqual(quantity, result);
