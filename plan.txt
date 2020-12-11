@@ -1,7 +1,7 @@
+Business Logic
+
 * We need two classes one for Bread and one for Pastry
 * We need a posibly contructor for orders
-* Welcome message
-* Shows cost of the Bread and Pastry 
 * Each class has to have formula to prepare cost and make deals
 * Bread class if statement, if user select 2 amount then 1 + free
 * Pastry class if user select 2 pastry 3rd $1 discount
@@ -12,5 +12,36 @@
 
 * Using dictionaries to save the key and value of classes
 
-//if user said yes to buy more .add to the order
 
+UI Logic
+* Welcome message
+Hello Welcome to my Bakery!
+
+Do you want to see the menu? Y or N
+// if yes else N Quit program
+
+MENU
+//{Dictionaries}? Bread, 1 Pastry, 2
+Bread  //$5
+Pastry //$2
+
+Do you want to see the specials or want to order?
+// if specials
+* Bread Buy 2 anf get 1 free
+* Pastry Buy 3 for $5
+
+Ready to Order? Y or N if no MENU
+// if order or Y
+Please enter 
+1 for single Bread
+2 for single Pastry
+3 for Bread special
+4 for Pastry special
+
+Show total base on number 
+// Your total is ___ 
+
+Strech goals
+Do you want to add more items to the orders? Y 
+//if yes MENU
+else Quit program
