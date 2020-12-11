@@ -19,8 +19,8 @@ price
 
 method for specials pastry
 
-
-//maybe a list to add all the items in the order 
+//maybe a list to add all the items in the MENU
+//maybe dictionary to add different orders?
 //another list to see how many orders the user has
 
 * Using dictionaries to save the key and value of classes
