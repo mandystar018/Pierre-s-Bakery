@@ -7,6 +7,19 @@ Business Logic
 * Pastry class if user select 2 pastry 3rd $1 discount
 * Using list or dictionary?
 
+//Bread class
+kind of Bread
+price
+
+method for specials bread
+
+//Pastry class
+kind of pastry
+price
+
+method for specials pastry
+
+
 //maybe a list to add all the items in the order 
 //another list to see how many orders the user has
 
@@ -14,6 +27,10 @@ Business Logic
 
 
 UI Logic
+
+//list of breads and pastry
+
+
 * Welcome message
 Hello Welcome to my Bakery!
 
