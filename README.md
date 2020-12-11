@@ -1,4 +1,4 @@
-# <span style="color:#0ec2b8">_App name_</span>
+# <span style="color:#0ec2b8">_Pierre's Bakery_</span>
 
 #### _ Brief description of application, date_
 
