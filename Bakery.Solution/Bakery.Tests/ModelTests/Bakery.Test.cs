@@ -83,9 +83,18 @@ namespace Bakery.Tests
     public void GetKindOfPastry_ReturnKindOfPastry_String()
     {
       string pastry = "Croissant";
-      Pastry newPastry = new Pastry("Croissant", 5, 1);
+      Pastry newPastry = new Pastry("Croissant", 2, 1);
       string result = newPastry.Kind;
       Assert.AreEqual(pastry, result);
+    }
+
+    [TestMethod]
+    public void GetPriceOfPastry_ReturnPriceOfPastry_Int()
+    {
+      int price = 3;
+      Pastry newPastry = new Pastry("Croissant", 2, 1);
+      int result = newPastry.Price;
+      Assert.AreEqual(price, result);
     }
   }
 }
