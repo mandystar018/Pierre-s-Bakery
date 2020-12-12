@@ -82,7 +82,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetKindOfPastry_ReturnKindOfPastry_String()
     {
-      string pastry = "Croisat";
+      string pastry = "Croissant";
       Pastry newPastry = new Pastry("Croissant", 5, 1);
       string result = newPastry.Kind;
       Assert.AreEqual(pastry, result);
