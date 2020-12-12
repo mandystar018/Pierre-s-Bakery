@@ -111,7 +111,7 @@ namespace Bakery.Tests
     public void GetQuantityOfPastry_ReturnQuantityOfPastry_Int()
     {
       int quantity = 1;
-      Pastry newPastry = new Pastry("Croissant", 2, 3);
+      Pastry newPastry = new Pastry("Croissant", 2, 1);
       int result = newPastry.Quantity;
       Assert.AreEqual(quantity, result);
     }
