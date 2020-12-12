@@ -91,7 +91,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetPriceOfPastry_ReturnPriceOfPastry_Int()
     {
-      int price = 3;
+      int price = 2;
       Pastry newPastry = new Pastry("Croissant", 2, 1);
       int result = newPastry.Price;
       Assert.AreEqual(price, result);
