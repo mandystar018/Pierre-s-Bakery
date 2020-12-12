@@ -14,6 +14,7 @@ namespace Bakery.Models
       Price = price;
       Quantity = quantity;
     }
+
     public int GetDiscount(int Quantity)
     {
       int discount = 5;
@@ -36,6 +37,16 @@ namespace Bakery.Models
       Kind = kind;
       Price = price;
       Quantity = quantity;
+    }
+
+    public int GetDiscount(int Quantity)
+    {
+      int discount = 1;
+      if (Quantity % 3 == 0)
+      {
+        discount -= Price;
+      }
+      return Price;
     }
   }
 }
