@@ -100,8 +100,8 @@ namespace Bakery.Tests
     [TestMethod]
     public void SetPriceOfPastry_ReturnUpdatesPriceOfPastry_Int()
     {
-      Pastry newPastry = new Pastry("Croissant", 2, 1);
-      int updatedPrice = 10;
+      Pastry newPastry = new Pastry("Croissant", 2, 3);
+      int updatedPrice = 5;
       newPastry.Price = updatedPrice;
       int result = newPastry.Price;
       Assert.AreEqual(updatedPrice, result);
