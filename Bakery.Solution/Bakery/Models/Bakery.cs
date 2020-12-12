@@ -29,7 +29,7 @@ namespace Bakery.Models
   {
     public string Kind { get; }
     public int Price { get; set; }
-    public int Quantity { get;  }
+    public int Quantity { get; set; }
 
     public Pastry(string kind, int price, int quantity)
     {
