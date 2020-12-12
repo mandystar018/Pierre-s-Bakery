@@ -24,4 +24,9 @@ namespace Bakery.Models
       return Price;
     }
   }
+
+  public class Pastry
+  {
+    
+  }
 }

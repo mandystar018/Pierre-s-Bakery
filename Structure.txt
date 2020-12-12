@@ -31,6 +31,10 @@ UI Logic
 
 //list that hold the breads and pastry on the MENU
 //GetDiscount when user has more than 2 breads
+// Ask the user how many breads or pastry they want 
+and save that variable and use the variable with 
+the add method fron list
+
 
 
 * Welcome message
