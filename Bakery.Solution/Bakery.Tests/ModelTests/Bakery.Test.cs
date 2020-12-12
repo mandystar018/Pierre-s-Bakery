@@ -116,14 +116,14 @@ namespace Bakery.Tests
       Assert.AreEqual(quantity, result);
     }
 
-    // [TestMethod]
-    // public void SetQuantityOfPastry_ReturnUpdatedQuantityOfPastry_Int()
-    // {
-    //   Pastry newPastry = new Pastry("Croissant", 2, 3);
-    //   int updatedQuantity = 2;
-    //   newPastry.Quantity = updatedQuantity;
-    //   int result = newPastry.Quantity;
-    //   Assert.AreEqual(updatedQuantity, result);
-    // }
+    [TestMethod]
+    public void SetQuantityOfPastry_ReturnUpdatedQuantityOfPastry_Int()
+    {
+      Pastry newPastry = new Pastry("Croissant", 2, 3);
+      int updatedQuantity = 2;
+      newPastry.Quantity = updatedQuantity;
+      int result = newPastry.Quantity;
+      Assert.AreEqual(updatedQuantity, result);
+    }
   }
 }
