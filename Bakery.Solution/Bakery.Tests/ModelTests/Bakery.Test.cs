@@ -64,7 +64,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetDiscountOfBread_ReturnDiscountOfBread_Int()
     {
-      Bread newBread = new Bread("Baguette", 10, 3);
+      Bread newBread = new Bread("Baguette", 15, 3);
       int result = newBread.GetDiscount(3);
       Assert.AreEqual( 10 ,result);
     }
@@ -131,9 +131,7 @@ namespace Bakery.Tests
     public void GetDiscountOfPastry_ReturnDiscountOfPastry_Int()
     {
       Pastry newPastry = new Pastry("Croissant", 6, 3);
-      int discount = newPastry.GetDiscount(3);
-      int result = discount.Price;
-      Assert.AreEqual( 5 ,result);
+      Assert.AreEqual( 4 , newPastry.GetDiscount(3));
     }
   }
 }

@@ -20,7 +20,7 @@ namespace Bakery.Models
       int discount = 5;
       if (Quantity > 2)
       {
-        discount -= Price;
+        Price -= discount;
       }
       return Price;
     }
@@ -44,7 +44,7 @@ namespace Bakery.Models
       int discount = 1;
       if (Quantity % 3 == 0)
       {
-        discount -= Price;
+        Price -= discount ;
       }
       return Price;
     }
