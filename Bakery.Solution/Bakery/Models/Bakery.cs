@@ -18,7 +18,7 @@ namespace Bakery.Models
     public int GetDiscount(int Quantity)
     {
       int discount = 5;
-      if (Quantity > 2)
+      if (Quantity % 3 == 0)
       {
         Price -= discount;
       }
