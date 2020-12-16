@@ -6,7 +6,7 @@
 
 ## <span style="color:#0ec2b8">Description</span>
 
-_This Bakery app it let's you see and pick diferrent options Pierre's Bakery have in the menu and the specials._
+_This Bakery app it let's you see and pick diferrent options Pierre's Bakery have in the menu and the specials you can choose between Pastry and Bread and see our menu options._
 
 ## <span style="color:#0ec2b8">Setup/Installation Requirements</span>
 ### <span style="color:#c4f4ef">Open Locally</span>
