@@ -61,14 +61,17 @@ namespace Bakery
         else if (number == "2")
         {
           Console.WriteLine("Your total price for " + croissant.Quantity + " " + croissant.Kind + " is $" + croissant.Price);
+          Console.WriteLine("Thank you for your Purchase!");
         }
         else if (number == "3")
         {
           Console.WriteLine("Your total price for " + specialBaguette.Quantity + " " + specialBaguette.Kind + " is $" + specialBaguette.GetDiscount(3));
+          Console.WriteLine("Thank you for your Purchase!");
         }
         else if (number == "4")
         {
           Console.WriteLine("Your total price for " + specialCroissant.Quantity + " " + specialCroissant.Kind + " is $" + specialCroissant.GetDiscount(3));
+          Console.WriteLine("Thank you for your Purchase!");
         }
       }
       else

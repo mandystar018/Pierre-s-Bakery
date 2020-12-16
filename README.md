@@ -1,6 +1,6 @@
 # <span style="color:#0ec2b8">_Pierre's Bakery_</span>
 
-#### _ Bakery App, 12/11/2020._
+#### _Bakery App, 12/11/2020._
 
 #### By _**Amanda Otero**_
 
